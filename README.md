@@ -27,8 +27,10 @@ inpainting methods were involved during the training of GIID-Net.
 
 <p align='center'>
   <img src='https://github.com/HighwayWu/InpaintingForensics/blob/master/imgs/demo.png' width='870'/>
-  Framework of SLI model.
+  Demo figures. In each pair, the left is the original image; the middle is the forged image where the key objects are removed by some inpainting methods; the right is the output of GIID-Net by using forged image as input.
 </p>
+
+Furthermore, we thoroughly study the generalizability of our GIID-Net, and find that different training data could result in vastly different generalization capability. By carefully examining 10 popular inpainting methods, we identify that the GIID-Net trained on only one specific deep inpainting method exhibits desirable generalizability; namely, the obtained GIID-Net can accurately detect and localize inpainting manipulations for various unseen inpainting methods as well. Our results would suggest that common artifacts are shared across diverse image inpainting methods. Finally, we build a public inpainting dataset (please download from [here]('https://test')) of 10K image pairs for the future research in this area.
 
 ## Dependency
 - torch 1.6.0
