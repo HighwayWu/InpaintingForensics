@@ -1,19 +1,16 @@
 # Inpainting Forensics
 
-(updating)
-
 An official implementation code for paper "GIID-Net: Generalizable Image Inpainting Detection via Neural Architecture Search and Attention"
 
 ## Table of Contents
 
 - [Background](#background)
 - [Dependency](#dependency)
-- [Demo](#demo)
+- [Usage](#usage)
 
 
 ## Background
-In this work, we tackle the challenge of providing a forensic solution that can generalize well to accurately detect various unseen inpainting manipulations. More specifically, we
-propose a novel end-to-end Generalizable Image Inpainting Detection Network (GIID-Net), to detect the inpainted regions at pixel accuracy. The schematic diagram of the GIID-Net is shown in the following figure.
+In this work, we tackle the challenge of providing a forensic solution that can generalize well to accurately detect various unseen inpainting manipulations. More specifically, we propose a novel end-to-end Generalizable Image Inpainting Detection Network (GIID-Net), to detect the inpainted regions at pixel accuracy. The schematic diagram of the GIID-Net is shown in the following figure.
 
 <p align='center'>  
   <img src='https://github.com/HighwayWu/InpaintingForensics/blob/master/imgs/framework.jpg' width='870'/>
@@ -30,13 +27,13 @@ inpainting methods were involved during the training of GIID-Net.
   Demo figures. In each pair, the left is the original image; the middle is the forged image where the key objects are removed by some inpainting methods; the right is the output of GIID-Net by using forged image as input.
 </p>
 
-Furthermore, we thoroughly study the generalizability of our GIID-Net, and find that different training data could result in vastly different generalization capability. By carefully examining 10 popular inpainting methods, we identify that the GIID-Net trained on only one specific deep inpainting method exhibits desirable generalizability; namely, the obtained GIID-Net can accurately detect and localize inpainting manipulations for various unseen inpainting methods as well. Our results would suggest that common artifacts are shared across diverse image inpainting methods. Finally, we build a diverse inpainting dataset of 10K image pairs for the future research in this area. The diverse inpainting dataset please download from [here]('https://www.google.com').
+Furthermore, we thoroughly study the generalizability of our GIID-Net, and find that different training data could result in vastly different generalization capability. By carefully examining 10 popular inpainting methods, we identify that the GIID-Net trained on only one specific deep inpainting method exhibits desirable generalizability; namely, the obtained GIID-Net can accurately detect and localize inpainting manipulations for various unseen inpainting methods as well. Our results would suggest that common artifacts are shared across diverse image inpainting methods. Finally, we build a diverse inpainting dataset (please download from [here](https://drive.google.com/file/d/1vaM5Jne8EA7OqPs46p2Y49OqgFHaw-_e/view?usp=sharing)) of 10K image pairs for the future research in this area.
 
 ## Dependency
 - torch 1.6.0
 - tensorflow 1.8.0
 
-## Demo
+## Usage
 
 To train or test the GIID-Net:
 ```bash
