@@ -1,6 +1,6 @@
 # Inpainting Forensics
 
-An official implementation code for paper "IID-Net: Generalizable Image Inpainting Detection via Neural Architecture Search and Attention"
+An official implementation code for paper "IID-Net: Image Inpainting Detection via Neural Architecture Search and Attention"
 
 ## Table of Contents
 
