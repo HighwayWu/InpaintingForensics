@@ -49,3 +49,5 @@ For example to test the IID-Net:
 python main.py test
 ```
 Then the IID-Net will detect the images in the `./demo_input/` and save the results in the `./demo_output/` directory.
+
+**Note: The test environment requires at least 2 GPUs, as I found that using only 1 GPU would lead to totally different results (may be caused by DataParallel).**
