@@ -7,6 +7,7 @@ An official implementation code for paper "IID-Net: Image Inpainting Detection v
 - [Background](#background)
 - [Dependency](#dependency)
 - [Usage](#usage)
+- [Citation](#citation)
 
 
 ## Background
@@ -31,7 +32,7 @@ inpainting methods were involved during the training of IID-Net.
   <em>Demo figures. In each pair, the left is the original image; the middle is the forged image where the key objects are removed by some inpainting methods; the right is the output of IID-Net by using forged image as input.</em>
 </p>
 
-Furthermore, we thoroughly study the generalizability of our IID-Net, and find that different training data could result in vastly different generalization capability. By carefully examining 10 popular inpainting methods, we identify that the IID-Net trained on only one specific deep inpainting method exhibits desirable generalizability; namely, the obtained IID-Net can accurately detect and localize inpainting manipulations for various unseen inpainting methods as well. Our results would suggest that common artifacts are shared across diverse image inpainting methods. Finally, we build a diverse inpainting dataset (please download from [here](https://drive.google.com/file/d/1vaM5Jne8EA7OqPs46p2Y49OqgFHaw-_e/view?usp=sharing)) of 10K image pairs for the future research in this area.
+Furthermore, we thoroughly study the generalizability of our IID-Net, and find that different training data could result in vastly different generalization capability. By carefully examining 10 popular inpainting methods, we identify that the IID-Net trained on only one specific deep inpainting method exhibits desirable generalizability; namely, the obtained IID-Net can accurately detect and localize inpainting manipulations for various unseen inpainting methods as well. Our results would suggest that common artifacts are shared across diverse image inpainting methods. Finally, we build a diverse inpainting dataset (please download from [here](https://drive.google.com/file/d/155XREu313bU-GixMxduVr0Lo_He_jsFq/view?usp=sharing)) of 10K image pairs for the future research in this area.
 
 ## Dependency
 - torch 1.6.0
@@ -51,3 +52,17 @@ python main.py test
 Then the IID-Net will detect the images in the `./demo_input/` and save the results in the `./demo_output/` directory.
 
 **Note: The test environment requires at least 2 GPUs, as I found that using only 1 GPU would lead to totally different results (may be caused by DataParallel).**
+
+## Citation
+If you use this code for your research, please cite our paper
+```
+@ARTICLE{9410590, 
+author={Wu, Haiwei and Zhou, Jiantao},
+journal={IEEE Transactions on Circuits and Systems for Video Technology},
+title={IID-Net: Image Inpainting Detection Network via Neural Architecture Search and Attention},
+year={2021},
+volume={},
+number={},
+pages={1-1},
+doi={10.1109/TCSVT.2021.3075039}}
+```
