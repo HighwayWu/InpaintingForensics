@@ -67,4 +67,14 @@ volume={},
 number={},
 pages={1-1},
 doi={10.1109/TCSVT.2021.3075039}}
+
+@INPROCEEDINGS{9506778,
+author={Wu, Haiwei and Zhou, Jiantao},
+booktitle={2021 IEEE International Conference on Image Processing (ICIP)}, 
+title={GIID-NET: Generalizable Image Inpainting Detection Network}, 
+year={2021},
+volume={},
+number={},
+pages={3867-3871},
+doi={10.1109/ICIP42928.2021.9506778}}
 ```
