@@ -59,7 +59,7 @@ The training dataset (Places) is released on:
 [Baidu Yun (Code: qcbt)](https://pan.baidu.com/s/1qmD0NUZjEh1651rkZs9O1w);**
 
 **Note 2: The diverse inpainting dataset (testing dataset) dataset can be downloaded from:
-[Google Drive](https://drive.google.com/file/d/155XREu313bU-GixMxduVr0Lo_He_jsFq/view?usp=sharing) or 
+[Google Drive](https://drive.google.com/file/d/1prC20Ux7pKwWYw8EfLQV2bXE6dk4xLJ8/view?usp=sharing) or 
 [Baidu Yun (Code: biva)](https://pan.baidu.com/s/162pm40PEN-8kzbybLf--7A)**
 
 **Note 3: The test environment requires at least 2 GPUs, as I found that using only 1 GPU would lead to totally different results (may be caused by DataParallel).**
