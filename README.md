@@ -71,10 +71,10 @@ If you use this code for your research, please cite our paper
 author={Wu, Haiwei and Zhou, Jiantao},
 journal={IEEE Transactions on Circuits and Systems for Video Technology},
 title={IID-Net: Image Inpainting Detection Network via Neural Architecture Search and Attention},
-year={2021},
-volume={},
-number={},
-pages={1-1},
+year={2022},
+volume={32},
+number={3},
+pages={1172-1185},
 doi={10.1109/TCSVT.2021.3075039}}
 
 @INPROCEEDINGS{9506778,
@@ -82,8 +82,6 @@ author={Wu, Haiwei and Zhou, Jiantao},
 booktitle={2021 IEEE International Conference on Image Processing (ICIP)}, 
 title={GIID-NET: Generalizable Image Inpainting Detection Network}, 
 year={2021},
-volume={},
-number={},
 pages={3867-3871},
 doi={10.1109/ICIP42928.2021.9506778}}
 ```
