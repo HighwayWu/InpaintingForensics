@@ -60,7 +60,7 @@ The training dataset (Places) is released on:
 
 **Note 2: The diverse inpainting dataset (testing dataset) dataset can be downloaded from:
 [Google Drive](https://drive.google.com/file/d/1prC20Ux7pKwWYw8EfLQV2bXE6dk4xLJ8/view?usp=sharing) or 
-[Baidu Yun (Code: biva)](https://pan.baidu.com/s/162pm40PEN-8kzbybLf--7A)**
+[Baidu Yun (Code: biva)](https://pan.baidu.com/s/162pm40PEN-8kzbybLf--7A). Update: the PM category should be replaced by [This Version](https://drive.google.com/file/d/1RfFn4lmSDhxzqmq0YnWH7zo83dUy99SZ/view?usp=sharing).**
 
 **Note 3: The test environment requires at least 2 GPUs, as I found that using only 1 GPU would lead to totally different results (may be caused by DataParallel).**
 
