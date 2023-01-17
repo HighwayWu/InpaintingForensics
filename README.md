@@ -51,10 +51,10 @@ python main.py test
 Then the IID-Net will detect the images in the `./demo_input/` and save the results in the `./demo_output/` directory.
 
 **Note 1: The training dataset (Dresden) is released on:
-[Google Drive](https://drive.google.com/file/d/1crJnKMvjF3P6rqNFZks4PuQAz83nE_g-/view?usp=sharing) or 
+[Google Drive](https://drive.google.com/file/d/1bGtb8TPoOKt2Ak93qTONHfh0y-0RIuKu/view?usp=share_link) or 
 [Baidu Yun (Code: rpag)](https://pan.baidu.com/s/1GGUqMOS-VSBd0ybm9leOPg);
 The training dataset (Places) is released on:
-[Google Drive](https://drive.google.com/file/d/1iGxScWk_O745ojUMD-jdJXelqZiWhhPu/view?usp=sharing) or 
+[Google Drive](https://drive.google.com/file/d/160wVwEHlZ0vh6LrdOvU-5SzB9HA6ynXH/view?usp=share_link) or 
 [Baidu Yun (Code: qcbt)](https://pan.baidu.com/s/1qmD0NUZjEh1651rkZs9O1w);**
 
 **Note 2: The diverse inpainting dataset (testing dataset) dataset can be downloaded from:
